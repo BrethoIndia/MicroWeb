@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#07110b">
+<title>Bretho Air Purifier | Breathe Better, Live Better</title>
+<meta name="description" content="Bretho Air Purifier — layered filtration, UV-C, negative-ion technology and documentation-backed testing for everyday indoor air care.">
+<style>
+:root{--bg:#f6f5ef;--paper:#fffef9;--ink:#09100c;--forest:#07110b;--forest2:#0d1b11;--green:#76ce37;--lime:#b7f07a;--muted:#6e786f;--line:#dde2d8;--white:#fff;--shadow:0 24px 70px rgba(0,0,0,.16);--radius:24px;--serif:Georgia,'Times New Roman',serif;--sans:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:var(--sans);color:var(--ink);background:var(--bg);line-height:1.55}a{text-decoration:none;color:inherit}button{font:inherit}
+.nav{position:fixed;top:0;left:0;right:0;z-index:50;background:rgba(5,10,7,.78);backdrop-filter:blur(18px);border-bottom:1px solid rgba(255,255,255,.08)}.navin{max-width:1360px;margin:auto;height:72px;padding:0 28px;display:flex;align-items:center;gap:28px}.logo{display:inline-flex;align-items:center;color:#fff;font-weight:750;font-size:28px;letter-spacing:-.06em}.leaf{width:13px;height:23px;border-radius:90% 0 90% 0;background:var(--green);transform:rotate(28deg);display:inline-block;margin:0 0 13px 1px}.links{margin-left:auto;display:flex;align-items:center;gap:24px;font-size:11px;letter-spacing:.06em;color:#d7dfd9}.links a{transition:.2s}.links a:hover,.links a.active{color:var(--lime)}.navcta{border:1px solid #4d7a31;padding:10px 15px;border-radius:8px;color:var(--lime)!important}.hamb{display:none;margin-left:auto;color:#fff;border:1px solid rgba(255,255,255,.2);background:none;border-radius:8px;padding:8px 11px}
+.hero{background:linear-gradient(140deg,#050b07 0%,#0a130d 42%,#0a140e 100%);color:#fff;min-height:785px;padding:122px 0 0;position:relative;overflow:hidden}.hero:before{content:"";position:absolute;inset:-20% -10%;background:radial-gradient(circle at 75% 35%,rgba(115,205,56,.20),transparent 27%),radial-gradient(circle at 15% 72%,rgba(75,136,37,.12),transparent 25%);pointer-events:none}.hero-in{max-width:1360px;margin:auto;padding:40px 28px 72px;display:grid;grid-template-columns:1fr .97fr;gap:42px;align-items:center;position:relative}.eyebrow{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(172,239,113,.35);color:var(--lime);padding:9px 13px;border-radius:999px;font-size:11px;letter-spacing:.1em;text-transform:uppercase}.hero h1{font-family:var(--serif);font-weight:500;font-size:clamp(54px,7.5vw,102px);line-height:.94;letter-spacing:-.055em;margin:24px 0 24px}.hero h1 em{font-style:normal;color:var(--green)}.hero-copy{max-width:650px;color:#d3ddd5;font-size:17px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:30px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:9px;padding:13px 17px;border-radius:8px;text-transform:uppercase;letter-spacing:.07em;font-size:11px;border:1px solid rgba(255,255,255,.28);transition:.2s}.btn:hover{transform:translateY(-1px)}.btn.primary{background:var(--green);color:#07110a;border-color:var(--green);font-weight:700}.btn.dark{border-color:#4f7e30;color:var(--lime)}
+.hero-visual{min-height:545px;display:flex;align-items:center;justify-content:center;position:relative}.hero-visual:before{content:"";position:absolute;width:480px;height:480px;border-radius:50%;background:radial-gradient(circle,rgba(114,205,57,.20),transparent 68%);filter:blur(7px)}.hero-card{position:relative;width:min(600px,100%);border-radius:28px;overflow:hidden;background:#dfe3d9;box-shadow:0 45px 100px rgba(0,0,0,.5);border:1px solid rgba(255,255,255,.10)}.hero-card img{width:100%;height:570px;object-fit:cover;object-position:center 49%;display:block}.hero-tag{position:absolute;left:18px;bottom:18px;background:rgba(6,12,8,.78);border:1px solid rgba(255,255,255,.15);backdrop-filter:blur(12px);padding:15px 17px;border-radius:14px}.hero-tag span{display:block;text-transform:uppercase;letter-spacing:.10em;font-size:10px;color:var(--lime)}.hero-tag strong{display:block;font-family:var(--serif);font-size:22px;font-weight:500;margin-top:2px}
+.statbar{background:#132313;color:#fff;display:grid;grid-template-columns:repeat(5,1fr);border-top:1px solid rgba(255,255,255,.08);border-bottom:1px solid rgba(255,255,255,.08)}.stat{padding:26px 20px;display:flex;justify-content:center;gap:11px;border-right:1px solid rgba(255,255,255,.08)}.stat:last-child{border-right:0}.stat b{display:block;font-size:18px}.stat small{display:block;color:#b9c4bc;font-size:9px;text-transform:uppercase;letter-spacing:.12em;margin-top:2px}
+.section{padding:110px 28px}.wrap{max-width:1360px;margin:auto}.kicker{font-size:10px;font-weight:750;letter-spacing:.18em;text-transform:uppercase;color:#4f7b39}.title{font-family:var(--serif);font-size:clamp(43px,5.3vw,72px);font-weight:500;line-height:1;letter-spacing:-.05em;margin:11px 0 17px}.title em{font-style:normal;color:#3e6d2e}.sub{font-size:16px;color:var(--muted);max-width:690px}
+.why{background:#fff}.why-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:60px;align-items:start}.cards{display:grid;grid-template-columns:repeat(2,1fr);gap:14px;margin-top:32px}.card{border:1px solid var(--line);border-radius:19px;background:#fbfbf7;padding:22px}.card b{display:block;font-size:12px;letter-spacing:.08em;text-transform:uppercase}.card p{font-size:12px;color:#707a72;margin:7px 0 0}.why-photo{border-radius:26px;overflow:hidden;box-shadow:var(--shadow);min-height:580px}.why-photo img{width:100%;height:580px;object-fit:cover}
+.tech{background:#efeee7}.tech-head{display:grid;grid-template-columns:.75fr 1.25fr;gap:55px;align-items:end}.stages{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;margin-top:55px}.stage{border-top:1px solid #d5d8cf;padding-top:15px}.stage .num{font-size:11px;color:#729465}.stage h3{font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin:7px 0}.stage p{font-size:11px;color:#727b74;margin:0}.tech-gallery{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:13px;margin-top:28px}.gallery-img{aspect-ratio:4/3;border-radius:20px;overflow:hidden;background:#ddd}.gallery-img.tall{aspect-ratio:4/3}.gallery-img img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .5s}.gallery-img:hover img{transform:scale(1.035)}
+.control{background:#07110b;color:#fff}.control-grid{display:grid;grid-template-columns:.92fr 1.08fr;gap:60px;align-items:center}.control-photo{border-radius:25px;overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(255,255,255,.08)}.control-photo img{display:block;width:100%;height:620px;object-fit:cover}.control .sub{color:#bac5bd}.chips{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:35px}.chip{border:1px solid rgba(255,255,255,.11);background:rgba(255,255,255,.025);border-radius:16px;padding:18px}.chip b{display:block;color:var(--lime);font-size:11px;text-transform:uppercase;letter-spacing:.08em}.chip span{display:block;color:#abb7af;font-size:11px;margin-top:5px}
+.proof{background:#faf9f5}.proofgrid{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-top:45px}.proofcard{background:#fff;border:1px solid var(--line);border-radius:19px;padding:24px}.proofcard .big{font-family:var(--serif);font-size:31px}.proofcard b{display:block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;margin-top:8px}.proofcard p{font-size:11px;color:#727b74;margin:7px 0 0}
+.tested{background:#e7eadf}.test-grid{display:grid;grid-template-columns:.87fr 1.13fr;gap:55px;align-items:start}.certs{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin-top:32px}.cert{background:rgba(255,255,255,.52);border:1px solid #d3d8ce;border-radius:16px;padding:17px}.cert b{font-size:12px}.cert span{display:block;color:#727c73;font-size:10px;margin-top:4px}.inspection{background:#09120c;color:#fff;padding:35px;border-radius:25px;box-shadow:var(--shadow)}.pill{display:inline-block;color:var(--lime);border:1px solid #547d35;border-radius:999px;padding:7px 10px;text-transform:uppercase;letter-spacing:.13em;font-size:9px}.inspection h3{font-family:var(--serif);font-weight:500;font-size:40px;line-height:1.08;margin:19px 0 14px}.inspection p{font-size:12px;color:#bcc6be}.checklist{display:grid;grid-template-columns:1fr 1fr;gap:10px 18px;margin-top:22px}.check{font-size:11px;color:#c5cec8}.check:before{content:'✓';color:var(--green);font-weight:800;margin-right:7px}.inspection small{display:block;color:#87938b;font-size:9px;margin-top:24px}
+.gallery{background:#fff}.gallery-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:38px}.gcard{border-radius:21px;overflow:hidden;background:#edf0ea;cursor:pointer;position:relative}.gcard img{display:block;width:100%;aspect-ratio:4/3;object-fit:cover;transition:transform .5s}.gcard:hover img{transform:scale(1.035)}.glabel{position:absolute;left:12px;bottom:12px;background:rgba(0,0,0,.68);color:#fff;padding:7px 10px;border-radius:999px;font-size:9px;text-transform:uppercase;letter-spacing:.10em}
+.shop{background:#f0f2ea}.shop-grid{display:grid;grid-template-columns:1.05fr .95fr;gap:60px;align-items:center}.shop-photo{border-radius:25px;overflow:hidden;box-shadow:var(--shadow)}.shop-photo img{width:100%;height:590px;object-fit:cover}.shop-note{font-size:13px;color:#6c766e;max-width:570px}.amazon{display:inline-flex;align-items:center;gap:9px;margin-top:26px;border:1px solid #4b7f2c;background:transparent;color:#346323;padding:13px 17px;border-radius:8px;font-size:11px;letter-spacing:.07em;text-transform:uppercase;font-weight:700}.amazon span{font-size:16px}.soon{display:block;font-size:10px;color:#7a837b;margin-top:10px}
+.about{background:#fff}.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}.about-card{border:1px solid var(--line);border-radius:22px;padding:32px;background:#fbfbf7}.about-card h3{font-family:var(--serif);font-size:31px;font-weight:500;margin:0 0 10px}.about-card p{font-size:13px;color:#6f7871}.source{font-size:10px;color:#858e86;margin-top:22px}
+.footer{background:#050a07;color:#dfe7e0;padding:72px 28px 25px}.footer-grid{max-width:1360px;margin:auto;display:grid;grid-template-columns:1.3fr .8fr .8fr .8fr;gap:42px}.footerbrand{font-size:30px;font-weight:750;color:#fff;letter-spacing:-.06em}.footer h4{font-size:10px;text-transform:uppercase;letter-spacing:.15em;color:#8e9b92;margin:0 0 15px}.footer a,.footer p{display:block;color:#aab6ad;font-size:11px;margin:8px 0}.copyright{max-width:1360px;margin:48px auto 0;padding-top:18px;border-top:1px solid rgba(255,255,255,.09);font-size:9px;color:#718078}
+.float{position:fixed;right:24px;bottom:21px;width:55px;height:55px;border-radius:50%;background:#67cf38;color:#051007;z-index:50;display:grid;place-items:center;font-weight:800;box-shadow:0 18px 45px rgba(0,0,0,.3)}
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.82);display:none;place-items:center;z-index:100;padding:25px}.modal.open{display:grid}.modal-inner{max-width:1100px;width:100%;position:relative}.modal img{display:block;width:100%;max-height:82vh;object-fit:contain;border-radius:20px;background:#fff}.close{position:absolute;right:8px;top:-48px;border:0;background:none;color:#fff;font-size:34px;cursor:pointer}
+.mobile-menu{display:none}
+@media(max-width:1050px){.links{display:none}.hamb{display:block}.hero-in,.why-grid,.tech-head,.control-grid,.test-grid,.shop-grid,.about-grid{grid-template-columns:1fr}.hero-visual{margin-top:15px}.statbar{grid-template-columns:repeat(2,1fr)}.stat:nth-child(2n){border-right:0}.stages{grid-template-columns:repeat(3,1fr)}.proofgrid{grid-template-columns:repeat(2,1fr)}.gallery-grid{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:1fr 1fr}.mobile-menu{position:absolute;top:72px;left:0;right:0;background:#07110b;border-bottom:1px solid rgba(255,255,255,.1);padding:18px 28px;display:none}.mobile-menu.open{display:block}.mobile-menu a{display:block;color:#e0e8e0;padding:10px 0;font-size:12px}}
+@media(max-width:620px){.navin{height:66px;padding:0 18px}.logo{font-size:25px}.section{padding:78px 19px}.hero{padding-top:92px}.hero-in{padding:18px 19px 50px}.hero h1{font-size:55px}.hero-copy{font-size:15px}.hero-card img{height:430px}.hero-visual{min-height:430px}.statbar{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid rgba(255,255,255,.08)}.stages,.proofgrid,.chips,.certs,.gallery-grid,.tech-gallery{grid-template-columns:1fr}.why-photo img,.control-photo img,.shop-photo img{height:430px}.footer-grid{grid-template-columns:1fr}.footer{padding-left:19px;padding-right:19px}.float{right:16px;bottom:16px}.inspection h3{font-size:34px}.actions .btn{width:100%}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="navin">
+    <a class="logo" href="#home" aria-label="Bretho home">Bretho<span class="leaf"></span></a>
+    <nav class="links" aria-label="Primary navigation">
+      <a href="#home">HOME</a><a href="#why">WHY BRETHO</a><a href="#technology">TECHNOLOGY</a><a href="#air-quality">AIR QUALITY</a><a href="#shop">SHOP</a><a href="#tested">TESTED &amp; CERTIFIED</a><a href="#about">ABOUT US</a><a class="navcta" href="#contact">CONTACT US</a>
+    </nav>
+    <button class="hamb" id="hamb" aria-label="Open menu">MENU</button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">HOME</a><a href="#why">WHY BRETHO</a><a href="#technology">TECHNOLOGY</a><a href="#air-quality">AIR QUALITY</a><a href="#shop">SHOP</a><a href="#tested">TESTED &amp; CERTIFIED</a><a href="#about">ABOUT US</a><a href="#contact">CONTACT US</a>
+  </div>
+</header>
+
+<main id="home">
+<section class="hero">
+  <div class="hero-in">
+    <div>
+      <div class="eyebrow">✦ Breathe Better, Live Better</div>
+      <h1>Every Breath<br>Should Be <em>Pure.</em></h1>
+      <p class="hero-copy">Bretho Air Purifier brings together layered filtration, UV-C technology and negative-ion technology in a compact form designed for everyday indoor air care.</p>
+      <div class="actions"><a class="btn primary" href="#technology">EXPLORE TECHNOLOGY →</a><a class="btn" href="#air-quality">AIR QUALITY IN INDIA</a></div>
+    </div>
+    <div class="hero-visual">
+      <div class="hero-card"><img src="assets/front.webp" alt="Bretho Air Purifier front view"><div class="hero-tag"><span>BRETHO AIR PURIFIER</span><strong>Designed for everyday air care.</strong></div></div>
+    </div>
+  </div>
+</section>
+<div class="statbar">
+  <div class="stat"><div><b>3-STAGE</b><small>FILTRATION</small></div></div>
+  <div class="stat"><div><b>10.5W</b><small>RATED POWER</small></div></div>
+  <div class="stat"><div><b>UV-C + IONIZER</b><small>ADDITIONAL TECHNOLOGY</small></div></div>
+  <div class="stat"><div><b>0.33W</b><small>STANDBY POWER</small></div></div>
+  <div class="stat"><div><b>3 SPEEDS</b><small>FAN CONTROL</small></div></div>
+</div>
+
+<section class="section why" id="why">
+  <div class="wrap why-grid">
+    <div><div class="kicker">Why Bretho</div><h2 class="title">Air care without<br><em>the complication.</em></h2><p class="sub">The Bretho Air Purifier is built around a simple experience: intuitive controls, layered filtration and documented testing — without turning air care into a technical chore.</p>
+      <div class="cards">
+        <div class="card"><b>Layered protection</b><p>Pre-filter, HEPA 13 and activated carbon are paired with UV-C and negative-ion technology.</p></div>
+        <div class="card"><b>Simple control</b><p>Touch controls put speed, UV, ionizer, sleep mode and timer functions within easy reach.</p></div>
+        <div class="card"><b>Low power standby</b><p>ERP test documentation records 0.33 W standby power for this model.</p></div>
+        <div class="card"><b>Documentation-led</b><p>Safety, EMC, energy and material test documentation is part of the product story.</p></div>
+      </div>
+    </div>
+    <div class="why-photo"><img src="assets/front.webp" alt="Bretho Air Purifier in a real photographed environment"></div>
+  </div>
+</section>
+
+<section class="section tech" id="technology">
+  <div class="wrap">
+    <div class="tech-head"><div><div class="kicker">Technology</div><h2 class="title">Advanced filtration.<br><em>Complete air care.</em></h2></div><p class="sub">A three-stage filtration system is complemented by UV-C and negative-ion technology. The filtration configuration below is presented as a product specification; certification and test claims are shown separately.</p></div>
+    <div class="stages">
+      <div class="stage"><div class="num">01</div><h3>Pre-filter</h3><p>Helps catch larger dust and particles before the finer filtration layer.</p></div>
+      <div class="stage"><div class="num">02</div><h3>HEPA 13</h3><p>Fine-particle filtration layer specified for the product configuration.</p></div>
+      <div class="stage"><div class="num">03</div><h3>Activated Carbon</h3><p>Carbon layer designed to help with odors and gaseous pollutants.</p></div>
+      <div class="stage"><div class="num">04</div><h3>UV-C</h3><p>254 nm UV-C emitter documented in the safety testing record.</p></div>
+      <div class="stage"><div class="num">05</div><h3>Ionizer</h3><p>Negative-ion generation is part of the product's technology set.</p></div>
+    </div>
+    <div class="tech-gallery"><div class="gallery-img"><img src="assets/top-control.webp" alt="Bretho Air Purifier touch control panel"></div><div class="gallery-img"><img src="assets/back.webp" alt="Bretho Air Purifier rear view"></div><div class="gallery-img"><img src="assets/front.webp" alt="Bretho Air Purifier front view"></div></div>
+  </div>
+</section>
+
+<section class="section control" id="controls">
+  <div class="wrap control-grid">
+    <div class="control-photo"><img src="assets/top-control.webp" alt="Bretho Air Purifier top touch control panel"></div>
+    <div><div class="kicker" style="color:#85b566">Everyday control</div><h2 class="title" style="color:#fff">Simple controls.<br><em>Thoughtful design.</em></h2><p class="sub">The top interface is designed to keep core functions close: airflow, UV, ionizer, sleep mode and timed operation.</p>
+      <div class="chips"><div class="chip"><b>3 Fan Speeds</b><span>Choose the airflow level.</span></div><div class="chip"><b>UV Function</b><span>Dedicated UV control.</span></div><div class="chip"><b>Ionizer</b><span>Negative-ion function.</span></div><div class="chip"><b>Sleep Mode</b><span>Quieter operating mode.</span></div><div class="chip"><b>Power Timer</b><span>Timed operation control.</span></div><div class="chip"><b>Touch Panel</b><span>Clear, intuitive interface.</span></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="section proof" id="air-quality">
+  <div class="wrap"><div class="kicker">Proof, not promises</div><h2 class="title">Numbers that deserve<br><em>a closer look.</em></h2><p class="sub">Selected specifications and test results from the product documentation supplied for the Bretho Air Purifier. Product specifications and independent test results are kept distinct.</p>
+    <div class="proofgrid">
+      <div class="proofcard"><div class="big">254 nm</div><b>UV-C emitter</b><p>Low-pressure mercury lamp identified in the safety test documentation.</p></div>
+      <div class="proofcard"><div class="big">1.32×10⁻⁶%</div><b>Highest ozone measured</b><p>Measured highest value in the referenced ozone test, below its stated test limit.</p></div>
+      <div class="proofcard"><div class="big">0.33 W</div><b>Standby power</b><p>ERP test value recorded for KJ050GE-C7E.</p></div>
+      <div class="proofcard"><div class="big">10.5 W</div><b>Rated power</b><p>KJ050GE-C7E purifier rating recorded in the inspection/test materials.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="section tested" id="tested">
+  <div class="wrap test-grid"><div><div class="kicker">Tested &amp; certified</div><h2 class="title">Built to be<br><em>checked.</em></h2><p class="sub">Our product story includes independent documentation covering electrical safety, EMC, energy testing and material compliance.</p>
+    <div class="certs"><div class="cert"><b>Electrical Safety</b><span>TÜV Rheinland LVD / CB documentation</span></div><div class="cert"><b>EMC</b><span>EN IEC 55014 family testing — PASS</span></div><div class="cert"><b>Energy</b><span>ERP standby test — 0.33 W</span></div><div class="cert"><b>Materials</b><span>RoHS / PAH test reports — PASS</span></div></div>
+  </div>
+  <div class="inspection"><span class="pill">DOCUMENTATION</span><h3>Tested across<br>key requirements.</h3><p>Independent testing documentation covers electrical safety, electromagnetic compatibility, energy use and selected material-compliance checks for the product configuration.</p><div class="checklist"><div class="check">Electrical safety</div><div class="check">EMC testing</div><div class="check">Energy testing</div><div class="check">RoHS documentation</div><div class="check">PAH testing</div><div class="check">UV-related safety</div></div><small>Certification and test references are presented separately from product specifications and should be reviewed against the original approved documents.</small></div></div>
+</section>
+
+<section class="section gallery" id="gallery">
+  <div class="wrap"><div class="kicker">The real product</div><h2 class="title">See it from<br><em>every angle.</em></h2><p class="sub">These are photographs of the actual Bretho Air Purifier supplied for this website build, including the controls, rear housing, packaging and included manual.</p>
+    <div class="gallery-grid">
+      <button class="gcard" data-src="assets/front.webp"><img src="assets/front.webp" alt="Bretho Air Purifier front"><span class="glabel">Front</span></button>
+      <button class="gcard" data-src="assets/top-control.webp"><img src="assets/top-control.webp" alt="Bretho top control panel"><span class="glabel">Top Controls</span></button>
+      <button class="gcard" data-src="assets/back.webp"><img src="assets/back.webp" alt="Bretho rear view"><span class="glabel">Rear</span></button>
+      <button class="gcard" data-src="assets/wrapped.webp"><img src="assets/wrapped.webp" alt="Bretho packaged in protective film"><span class="glabel">Protected</span></button>
+      <button class="gcard" data-src="assets/packaged.webp"><img src="assets/packaged.webp" alt="Bretho packaging view"><span class="glabel">Packaging</span></button>
+      <button class="gcard" data-src="assets/manual.webp"><img src="assets/manual.webp" alt="Bretho user manual"><span class="glabel">User Manual</span></button>
+    </div>
+  </div>
+</section>
+
+<section class="section shop" id="shop">
+  <div class="wrap shop-grid"><div class="shop-photo"><img src="assets/front.webp" alt="Bretho Air Purifier product"></div><div><div class="kicker">Shop Bretho</div><h2 class="title">Pure air.<br><em>Made simple.</em></h2><p class="sub">The Bretho Air Purifier brings together multi-layer filtration, UV-C, negative-ion technology and intuitive touch control in one compact home appliance.</p>
+    <a class="amazon" href="#" onclick="return false" aria-label="Shop on Amazon — link to be added later"><span>🛒</span> SHOP ON AMAZON →</a><span class="soon">Amazon purchase link will be connected here before launch.</span>
+  </div></div>
+</section>
+
+<section class="section about" id="about">
+  <div class="wrap about-grid"><div><div class="kicker">About Bretho</div><h2 class="title">A better relationship<br>with the air <em>around you.</em></h2><p class="sub">Bretho is building air-care products around a simple idea: make cleaner indoor air easier to understand, easier to act on and easier to live with.</p></div><div class="about-card"><h3>Made with clarity in mind.</h3><p>From the product interface to the way we explain air quality, Bretho is built to feel practical rather than intimidating.</p><p>We believe trust comes from transparency: show the technology, show the testing, and be precise about what the numbers actually mean.</p><p class="source">Technical and inspection references on this page are based on the supplied manufacturer and testing documentation for the selected air purifier configuration.</p></div></div>
+</section>
+</main>
+
+<footer class="footer" id="contact"><div class="footer-grid"><div><div class="footerbrand">Bretho<span style="display:inline-block;width:10px;height:17px;border-radius:90% 0 90% 0;background:var(--green);transform:rotate(28deg);margin:0 0 10px 1px"></span></div><p>Breathe Better, Live Better.</p><p style="max-width:330px">Air-care products designed with technology, clarity and everyday living in mind.</p></div><div><h4>Explore</h4><a href="#why">Why Bretho</a><a href="#technology">Technology</a><a href="#air-quality">Air Quality</a></div><div><h4>Product</h4><a href="#shop">Shop</a><a href="#tested">Tested &amp; Certified</a><a href="#gallery">Product Gallery</a></div><div><h4>Contact</h4><a href="mailto:care@bretho.in">care@bretho.in</a><a href="tel:+919675996767">+91 96759 96767</a><a href="https://wa.me/919675996767" target="_blank" rel="noopener">WhatsApp Support</a></div></div><div class="copyright">© 2026 Bretho. All rights reserved. Product specifications and test references should be reviewed against the latest approved launch documentation.</div></footer>
+<a class="float" href="https://wa.me/919675996767" target="_blank" rel="noopener" aria-label="Chat with Bretho on WhatsApp">WA</a>
+
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Product image preview"><div class="modal-inner"><button class="close" id="close" aria-label="Close">×</button><img id="modalImg" src="" alt=""></div></div>
+<script>
+const hamb=document.getElementById('hamb'), menu=document.getElementById('mobileMenu');
+hamb?.addEventListener('click',()=>menu.classList.toggle('open'));
+menu?.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>menu.classList.remove('open')));
+const modal=document.getElementById('modal'), modalImg=document.getElementById('modalImg'), close=document.getElementById('close');
+document.querySelectorAll('.gcard').forEach(card=>card.addEventListener('click',()=>{modalImg.src=card.dataset.src;modalImg.alt=card.querySelector('img').alt;modal.classList.add('open')}));
+close.addEventListener('click',()=>modal.classList.remove('open'));modal.addEventListener('click',e=>{if(e.target===modal)modal.classList.remove('open')});document.addEventListener('keydown',e=>{if(e.key==='Escape')modal.classList.remove('open')});
+const navLinks=[...document.querySelectorAll('.links a:not(.navcta)')]; const ids=navLinks.map(a=>a.getAttribute('href')).filter(Boolean);
+const sections=[...document.querySelectorAll('main section[id]')];
+const obs=new IntersectionObserver(entries=>entries.forEach(en=>{if(en.isIntersecting){navLinks.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+en.target.id))}}),{rootMargin:'-45% 0px -45% 0px'});sections.forEach(s=>obs.observe(s));
+</script>
+</body>
+</html>
